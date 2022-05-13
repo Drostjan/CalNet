@@ -2,15 +2,7 @@
 using System.Collections;
 namespace ExamenBonito{
     class MenuBonito{
-        /*
-        2.-  Se quiere rellenar una matriz de 8 * 8 con valores entre 1 y 99 de forma aleatoria pero todos deben ser diferentes.
-        En un menú de opciones nos dará las opciones de:
-        Generar / regenerar la matriz de números aleatorios.
-        Mostrar la matriz generada por pantalla.
-        Ordenar los números por filas de manera creciente.
-        Ordenar los números por columnas de manera creciente.
-        “Permutar” entre sí los dígitos de cada número, quedando invariables (obviamente) si son de sólo un dígito.
-        */
+      
         static void Menu(){
             Console.WriteLine("1.Generar/Regenerar matriz con numeros aleatorios.");
             Console.WriteLine("2.Mostrar la matriz generada por pantalla.");
